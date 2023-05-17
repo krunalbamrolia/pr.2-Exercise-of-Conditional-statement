@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Greter Numbers </title>
+</head>
+<body>
+    <script>
+        {
+            //get the input value
+            var n1 = parseFloat(prompt('enter one number  :'));
+            var n2 = parseFloat(prompt('enter two number  :'));
+            var n3 = parseFloat(prompt('enter three number  :'));
+            var n4 = parseFloat(prompt('enter four number  :'));
+
+            // Perform the operations & Output the result
+            if (n1 > n2 && n1 > n3 && n1 > n4) {
+                document.write('the greter number is :' + n1);
+            }
+            else if (n2 > n1 && n2 > n3 && n2 > n4) {
+                document.write('the greter number is :' + n2);
+            }
+            else if (n3 > n1 && n3 > n2 && n3 > n4) {
+                document.write('the greter number is :' + n3);
+            }
+            else{
+                document.write('the greter number is :' + n4);
+            }
+        }
+    </script>
+</body>
+</html>
